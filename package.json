@@ -1,0 +1,47 @@
+{
+  "name": "webpack-starter",
+  "version": "1.0.0",
+  "author": "Evgeniy Mezhevykh",
+  "license": "MIT",
+  "description": "webpack starter",
+  "main": "src/js/entry.es6",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mezhevykh223571/webpack-starter"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "autoprefixer": "^9.3.1",
+    "babel-loader": "^8.0.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^1.0.1",
+    "es6-promise-promise": "^1.0.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^2.0.0",
+    "jquery": ">=3.0.0",
+    "legacy-loader": "0.0.2",
+    "node-sass": "^4.10.0",
+    "path": "^0.12.7",
+    "postcss-loader": "^3.0.0",
+    "resolve-url-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.26.0",
+    "webpack-cli": "^3.1.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode=development",
+    "watch": "webpack --watch --mode=development",
+    "build": "webpack --mode=production --optimize-minimize",
+    "build:watch": "webpack --watch --mode=production --optimize-minimize"
+  },
+  "keywords": [
+    "sass",
+    "npm",
+    "webpack"
+  ]
+}
