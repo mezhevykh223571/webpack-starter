@@ -21,9 +21,6 @@ module.exports = {
     new ExtractTextPlugin('main.css'),
     new webpack.ProvidePlugin({
       Promise: 'es6-promise-promise',
-      jQuery: 'jquery',
-      $: 'jquery',
-      jquery: 'jquery'
     })
   ],
 
